@@ -59,8 +59,9 @@ DDHD2_proteomics/
 
 ## 📜 License and Citation
 
-This repository accompanies a Nature journal submission. Please cite as:
-> Author(s). *Title*. Nature (Year). [DOI once published]
+> This repository accompanies the manuscript:  
+> **DDHD2 provides a flux of saturated fatty acids for neuronal energy and functions**  
+> (Author list and DOI will be added upon publication)
 
 If using this code, please credit the original authors and link back to this repository.
 
@@ -69,5 +70,5 @@ If using this code, please credit the original authors and link back to this rep
 ## 📬 Contact
 
 For questions or suggestions, contact:
-- `Your Name` — [your.email@institution.edu]
+- Yih Tyng Bong — [rita.bong@helsinki.fi]
 - OR open an issue on this GitHub repo
