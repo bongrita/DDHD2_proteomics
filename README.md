@@ -14,10 +14,8 @@ DDHD2_proteomics/
 │   ├── 03_batch_correction_DE.R
 │   ├── 04_visualizations.R
 │   ├── 05_GO_GSEA_analysis.R
+│   ├── 06_Heatmap_visualization
 │   └── utils.R
-├── data/                   # Place your raw data files here (.tsv, .xlsx, etc.)
-├── results/                # Processed results (e.g. DE tables, normalized matrices)
-├── figures/                # Output plots (volcano, heatmaps, PCA, etc.)
 ├── .gitignore
 ├── DDHD2_proteomics.Rproj
 └── README.md               # You're here
@@ -39,8 +37,8 @@ DDHD2_proteomics/
    - `02_normalize_impute.R`: Performs log2 transformation, normalization, missing value imputation (QRILC).
    - `03_batch_correction_DE.R`: Applies SVA + batch correction and runs limma DE analysis.
    - `04_visualizations.R`: PCA, volcano plots, rescue plots.
-   - `05_GO_GSEA_analysis.R`: GO, GSEA, and heatmaps for selected pathways.
-   - `utils.R`: Any helper functions used in the analysis.
+   - `05_GO_GSEA_analysis.R`: GO, GSEA.
+   - `06_Heatmap_visualization:  heatmaps for selected pathways.
 
 4. All plots and results are saved to `/results/` and `/figures/`.
 
